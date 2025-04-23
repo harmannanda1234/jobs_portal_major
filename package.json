@@ -1,0 +1,21 @@
+{
+  "name": "gtbit_job",
+  "version": "1.0.0",
+  "description": "Job portal for students of GURU TEGH BAHADUR INSTITUTE OF TECHNOLOGY",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Harmanjot singh nanda",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.0",
+    "nodemon": "^3.1.9"
+  }
+}
